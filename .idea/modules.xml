@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Actividad2-Javadoc-JUnit.iml" filepath="$PROJECT_DIR$/.idea/Actividad2-Javadoc-JUnit.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Calculadora-Actividad2.iml" filepath="$PROJECT_DIR$/Calculadora-Actividad2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Calculadora-Actividad2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Calculadora-Actividad2.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Calculadora-Actividad2.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Calculadora-Actividad2.test.iml" />
     </modules>
   </component>
 </project>
