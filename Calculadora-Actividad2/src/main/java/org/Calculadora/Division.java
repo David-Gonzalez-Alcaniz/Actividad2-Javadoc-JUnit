@@ -78,20 +78,20 @@ public class Division {
 
     //MÉTODOS PROPIOS:
 
-    //METODO DE DIVISIÓN DE REALES:
+    //METODO DE DIVISIÓN DE REALES: (David Gonzalez cambia a static a los métodos).
 
-    public double cocienteReales(double num1,double num2){
+    public static double cocienteReales(double num1,double num2){
         return num1/num2;
     }
 
 
     //METODO DE DIVISION DE ENTEROS:
-    public double cocienteEnteros(int num3,int num4){
+    public static double cocienteEnteros(int num3,int num4){
         return num3/num4;
     }
 
     //METODO DE nºINVERSO:
-    public double numeroInverso(double num5){
+    public static double numeroInverso(double num5){
         return 1/num5;
     }
 
