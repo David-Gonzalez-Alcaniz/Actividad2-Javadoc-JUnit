@@ -5,9 +5,8 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../Calculadora-Actividad2/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../Calculadora-Actividad2/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Calculadora-Actividad2/src/main/resources" type="java-resource" />
     </content>
-    <orderEntry type="jdk" jdkName="temurin-21" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

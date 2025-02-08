@@ -9,6 +9,7 @@ public class Resta {
     private double numReal3;
     private int numInt1;
     private int numInt2;
+    private double valorAcumulado = 0;
 
 
     //Metodos propios
@@ -31,8 +32,10 @@ public class Resta {
 
     //Resta de valor acumulado
     public double restaValorAcumulado(double valor) {
-        double valorAcumulado = 0;
-        return valor + valorAcumulado;
+
+        valorAcumulado -= valor;
+
+        return valorAcumulado;
 
     }
 }
