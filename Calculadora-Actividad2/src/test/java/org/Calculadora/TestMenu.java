@@ -36,13 +36,13 @@ public class TestMenu {
 
                 case 'R':
                     System.out.println("Resta de dos números reales");
-                    Resta.restaReales(6.5, 2.6);
+                    System.out.println(Resta.restaReales(6.5, 2.6));
 
                     System.out.println("Resta de dos números enteros");
-                    Resta.restaEnteros(4, 9);
+                    System.out.println(Resta.restaEnteros(4, 9));
 
                     System.out.println("Resta de tres números reales");
-                    Resta.restaTresReales(12.5, 5.6, 1.3);
+                    System.out.println(Resta.restaTresReales(12.5, 5.6, 1.3));
 
                     //System.out.println("Resta con valor acumulado");
                     //
@@ -51,34 +51,34 @@ public class TestMenu {
 
                 case 'P':
                     System.out.println("Producto de dos números reales");
-                    Producto.producto2Reales(6.5, 2.6);
+                    System.out.println(Producto.producto2Reales(6.5, 2.6));
 
                     System.out.println("Producto de dos números enteros");
-                    Producto.productoEnteros(6, 9);
+                    System.out.println(Producto.productoEnteros(6, 9));
 
                     System.out.println("Producto de tres números reales");
-                    Producto.producto3Reales(12.5, 5.6, 1.3);
+                    System.out.println(Producto.producto3Reales(12.5, 5.6, 1.3));
 
                     break;
 
                 case 'D':
                     System.out.println("División de dos números reales");
-                    Resta.restaReales(6.5, 2.6);
+                    System.out.println(Division.cocienteReales(6.5, 2.6));
 
                     System.out.println("División de dos números enteros");
-                    Resta.restaEnteros(4, 9);
+                    System.out.println(Division.cocienteEnteros(4, 9));
 
-                    System.out.println("División de tres números reales");
-                    Resta.restaTresReales(12.5, 5.6, 1.3);
+                    System.out.println("Número inverso");
+                    System.out.println(Division.numeroInverso(6));
 
                     break;
 
                 case 'M':
                     System.out.println("Cálculo de un módulo (residuo de una división entera)");
-                    Modulo.calculoModulo(6, 2);
+                    System.out.println(Modulo.calculoModulo(6, 2));
 
                     System.out.println("Cálculo del valor absoluto de un número");
-                    Modulo.calculoValorAbsoluto(4);
+                    System.out.println(Modulo.calculoValorAbsoluto(4));
 
                     break;
 
