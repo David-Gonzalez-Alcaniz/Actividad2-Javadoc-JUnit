@@ -28,6 +28,7 @@ public class TestMenu {
 
                     System.out.println("Suma de tres números reales: ");
                     System.out.println(Suma.sumaTresReales(6.5, 8.1, 6.4));
+
                     System.out.println("Suma con valor acumulado: ");
                     System.out.println(Suma.sumaConAcumulado(8.2));
 
@@ -48,23 +49,43 @@ public class TestMenu {
 
                     break;
 
-              /*  case 'P':
-                    System.out.println("Resta de dos números reales");
+                case 'P':
+                    System.out.println("Producto de dos números reales");
+                    Producto.producto2Reales(6.5, 2.6);
+
+                    System.out.println("Producto de dos números enteros");
+                    Producto.productoEnteros(6, 9);
+
+                    System.out.println("Producto de tres números reales");
+                    Producto.producto3Reales(12.5, 5.6, 1.3);
+
+                    break;
+
+                case 'D':
+                    System.out.println("División de dos números reales");
                     Resta.restaReales(6.5, 2.6);
 
-                    System.out.println("Resta de dos números enteros");
+                    System.out.println("División de dos números enteros");
                     Resta.restaEnteros(4, 9);
 
-                    System.out.println("Resta de tres números reales");
+                    System.out.println("División de tres números reales");
                     Resta.restaTresReales(12.5, 5.6, 1.3);
-                    //case '4':
-                    //System.out.println("Resta con valor acumulado");
-                    //Resta.restaValorAcumulado(6);
 
-                    break;*/
+                    break;
+
+                case 'M':
+                    System.out.println("Cálculo de un módulo (residuo de una división entera)");
+                    Modulo.calculoModulo(6, 2);
+
+                    System.out.println("Cálculo del valor absoluto de un número");
+                    Modulo.calculoValorAbsoluto(4);
+
+                    break;
+
                 case 'X':
                     System.out.println("SALIENDO");
                     break;
+
                 default:
                     System.out.println("Opción no válida, prueba otra operación");
 
