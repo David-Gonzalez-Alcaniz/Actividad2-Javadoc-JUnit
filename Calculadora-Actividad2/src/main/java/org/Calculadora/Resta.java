@@ -15,18 +15,18 @@ public class Resta {
     //Metodos propios
 
     //Resta de dos reales
-    public double restaReales(double numReal1, double numReal2) {
+    public static double restaReales(double numReal1, double numReal2) {
         return numReal1 - numReal2;
     }
 
 
     //Resta de dos enteros
-    public double restaEnteros(int numInt1, int numInt2) {
+    public static double restaEnteros(int numInt1, int numInt2) {
         return numInt1 - numInt2;
     }
 
     //Resta de tres reales
-    public double restaTresReales(double numReal1, double numReal2, double numReal3) {
+    public static double restaTresReales(double numReal1, double numReal2, double numReal3) {
         return numReal1 - numReal2 - numReal3;
     }
 
