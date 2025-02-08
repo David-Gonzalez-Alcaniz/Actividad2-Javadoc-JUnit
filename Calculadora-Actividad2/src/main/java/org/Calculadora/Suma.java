@@ -80,27 +80,28 @@ public class Suma {
                 '}';
     }
 
-    // METODOS PROPIOS
+    // METODOS PROPIOS (David Gonzalez cambia a static a los métodos).
 
         //METODO DE SUMA DE 2 REALES
-        public double sumaReales(double num1, double num2) {
+        public static double sumaReales(double num1, double num2) {
             return num1 + num2;
         }
 
         // METODO DE SUMA DE 2 ENTEROS
-        public int sumaEnteros(int num3, int num4) {
+        public static int sumaEnteros(int num3, int num4) {
             return num3 + num4;
         }
 
         // METODO DE SUMA DE 3 REALES
-        public double sumaTresReales(double num1, double num2, double num3) {
+        public static double sumaTresReales(double num1, double num2, double num3) {
             return num1 + num2 + num3;
         }
 
         // METODO PARA OBTENER EL VALOR ACUMULADO CON VARIABLE VALOR
-        public double sumaConAcumulado(double valor) {
+        public static double sumaConAcumulado(double valor) {
             double valorAcumulado = 0;
-            return valor + valorAcumulado;
+            return valorAcumulado;
         }
+
     }
 

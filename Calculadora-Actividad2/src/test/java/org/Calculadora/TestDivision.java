@@ -1,7 +1,6 @@
 package org.Calculadora;
 
-
-public class Main {
+public class TestDivision {
     public static void main(String[] args) {
 
     }

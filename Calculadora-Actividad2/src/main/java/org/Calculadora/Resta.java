@@ -12,7 +12,7 @@ public class Resta {
     private double valorAcumulado = 0;
 
 
-    //Metodos propios
+    //Metodos propios (David Gonzalez cambia a static los métodos)
 
     //Resta de dos reales
     public static double restaReales(double numReal1, double numReal2) {
@@ -31,11 +31,10 @@ public class Resta {
     }
 
     //Resta de valor acumulado
-    public double restaValorAcumulado(double valor) {
+    //public static double restaValorAcumulado(double valor) {
 
-        valorAcumulado -= valor;
+       //valorAcumulado -= valor;
 
-        return valorAcumulado;
-
-    }
+        //return valorAcumulado;
+    //}
 }
