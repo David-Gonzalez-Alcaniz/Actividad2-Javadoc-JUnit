@@ -1,11 +1,5 @@
 package org.Calculadora;
 
-import org.Calculadora.Suma;
-
-import static org.Calculadora.Suma.*;
-
-import java.util.Scanner;
-
 public class TestSuma {
     public static void main(String[] args) {
 
