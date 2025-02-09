@@ -10,18 +10,18 @@ public class Producto {
 
     //MÉTODOS PROPIOS
     //Producto 2 números reales.
-    public double producto2Reales (double multiplo1, double multiplo2){
+    public static double producto2Reales (double multiplo1, double multiplo2){
         return multiplo1 * multiplo2;
     }
 
     //Producto 2 números enteros.
-    public int productoEnteros (int multiplo3, int multiplo4){
+    public static int productoEnteros (int multiplo3, int multiplo4){
         return multiplo3 * multiplo4;
     }
 
     //Producto 3 números reales.
-    public double producto3Reales (double multiplo1, double multiplo2, double multiplo5) {
-        return multiplo1 * multiplo2 + multiplo5;
+    public static double producto3Reales (double multiplo1, double multiplo2, double multiplo5) {
+        return multiplo1 * multiplo2 * multiplo5;
     }
 
     //Generar constructor.
