@@ -49,7 +49,7 @@ public class Modulo {
 	▪ Residuo: M = a % b
 	 */
 
-    public int calculoModulo(int a, int b) {
+    public static int calculoModulo(int a, int b) {
         if (b == 0) {
             throw new ArithmeticException("División entre 0 NO permitido");
         }
@@ -64,7 +64,7 @@ public class Modulo {
 	▪ Si a < 0, entonces |a| = -a
 	*/
 
-    public double calculoValorAbsoluto(double a) {
+    public static double calculoValorAbsoluto(double a) {
         if (a >= 0)
             return a;
         return - a;

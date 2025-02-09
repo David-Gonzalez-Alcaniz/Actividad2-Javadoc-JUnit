@@ -9,30 +9,32 @@ public class Resta {
     private double numReal3;
     private int numInt1;
     private int numInt2;
+    private double valorAcumulado = 0;
 
 
-    //Metodos propios
+    //Metodos propios (David Gonzalez cambia a static los métodos)
 
     //Resta de dos reales
-    public double restaReales(double numReal1, double numReal2) {
+    public static double restaReales(double numReal1, double numReal2) {
         return numReal1 - numReal2;
     }
 
 
     //Resta de dos enteros
-    public double restaEnteros(int numInt1, int numInt2) {
+    public static double restaEnteros(int numInt1, int numInt2) {
         return numInt1 - numInt2;
     }
 
     //Resta de tres reales
-    public double restaTresReales(double numReal1, double numReal2, double numReal3) {
+    public static double restaTresReales(double numReal1, double numReal2, double numReal3) {
         return numReal1 - numReal2 - numReal3;
     }
 
     //Resta de valor acumulado
-    public double restaValorAcumulado(double valor) {
-        double valorAcumulado = 0;
-        return valor + valorAcumulado;
+    //public static double restaValorAcumulado(double valor) {
 
-    }
+       //valorAcumulado -= valor;
+
+        //return valorAcumulado;
+    //}
 }

@@ -1,7 +1,6 @@
 package org.Calculadora;
 
-
-public class Main {
+public class TestResta {
     public static void main(String[] args) {
 
     }
