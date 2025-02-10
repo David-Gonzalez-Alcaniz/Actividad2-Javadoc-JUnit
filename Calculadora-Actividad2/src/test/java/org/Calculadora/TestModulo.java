@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class TestModulo {
     public static void main(String[] args) {
 
-        //PRUEBA TEST DE CLASE MÓDULO:
+         //PRUEBA TEST DE CLASE MÓDULO:
 
         //Módulo de la división de dos números enteros:
         System.out.println(Modulo.calculoModulo(359,27));
