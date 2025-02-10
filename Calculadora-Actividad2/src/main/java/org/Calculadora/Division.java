@@ -1,5 +1,7 @@
 package org.Calculadora;
 
+import javax.management.ConstructorParameters;
+
 /**
  * La clase {Division} proporciona métodos para realizar operaciones de divisón,
  * tanto con números reales, como con enteros. Además, incluímos un metodo para
@@ -20,26 +22,24 @@ public class Division {
      * ATRIBUTOS DE CLASE:
      */
 
-    private double real1, real2;
-    private int num3, num4;
+    private double dividendo1, divisor1;
+    private int dividendo2, divisor2;
     private double num5;
-
     /**
-     * @param real1 Primer número real.
-     * @param real2 Segundo número real.
-     * @param num3  Primer número entero.
-     * @param num4  Segundo número entero.
-     * @param num5  Tercer número real.
+     * @param dividendo1    Dividendo número real.
+     * @param divisor1      Divisor número real.
+     * @param dividendo2    Dividendo número entero.
+     * @param divisor2      Divisor número entero.
      */
 
     /** CONSTRUCTOR CON TODOS LOS CAMPOS SELECCIONADOS: */
 
-    public Division(double real1, double real2, int num3, int num4, double num5) {
+    public Division(double dividendo1, double divisor1, int dividendo2, int divisor2, double num5) {
         super();
-        this.real1 = real1;
-        this.real2 = real2;
-        this.num3 = num3;
-        this.num4 = num4;
+        this.dividendo1 = dividendo1;
+        this.divisor1 = divisor1;
+        this.dividendo2 = dividendo2;
+        this.divisor2 = divisor2;
         this.num5 = num5;
     }
 
@@ -51,36 +51,36 @@ public class Division {
 
     /**GETTERS Y SETTERS:*/
 
-    public double getReal1() {
-        return real1;
+    public double getDividendo1() {
+        return dividendo1;
     }
 
-    public void setReal1(double real1) {
-        this.real1 = real1;
+    public void setDividendo1(double dividendo1) {
+        this.dividendo1 = dividendo1;
     }
 
-    public double getReal2() {
-        return real2;
+    public double getDivisor1() {
+        return divisor1;
     }
 
-    public void setReal2(double real2) {
-        this.real2 = real2;
+    public void setDivisor1(double divisor1) {
+        this.divisor1 = divisor1;
     }
 
-    public int getNum3() {
-        return num3;
+    public int getDividendo2() {
+        return dividendo2;
     }
 
-    public void setNum3(int num3) {
-        this.num3 = num3;
+    public void setDividendo2(int dividendo2) {
+        this.dividendo2 = dividendo2;
     }
 
-    public int getNum4() {
-        return num4;
+    public int getDivisor2() {
+        return divisor2;
     }
 
-    public void setNum4(int num4) {
-        this.num4 = num4;
+    public void setDivisor2(int divisor2) {
+        this.divisor2 = divisor2;
     }
 
     public double getNum5() {
@@ -95,10 +95,10 @@ public class Division {
 
     @Override
     public String toString() {
-        return "Division [real1=" + real1 +
-                ", real2=" + real2 +
-                ", num3=" + num3 +
-                ", num4=" + num4 +
+        return "Division [real1=" + dividendo1 +
+                ", real2=" + divisor1 +
+                ", num3=" + dividendo2 +
+                ", num4=" + divisor2 +
                 ", num5=" + num5
                 + "]";
     }
@@ -109,32 +109,32 @@ public class Division {
     /**
      * METODO DE DIVISIÓN ENTRE NÚMEROS REALES:
      *
-     * @param num1  Primer número real.
-     * @param num2  Segundo número real.
-     * @return  El cociente o producto de la división de los dos números reales.
+     * @param dividendo1    Dividendo número real.
+     * @param divisor1      Divisor número real.
+     * @return              El cociente o producto de la división de los dos números reales.
      */
 
-    public static double cocienteReales(double num1,double num2){
-        return num1/num2;
+    public static double cocienteReales(double dividendo1, double divisor1){
+        return dividendo1/divisor1;
     }
+
 
     /**
      * METODO DE DIVISION ENTRE NÚMEROS ENTEROS:
-     *
-     * @param num3  Primer número entero.
-     * @param num4  Segundo número entero.
-     * @return  El cociente o producto de la divsión de los dos números enteros.
+     * @param dividendo2    Dividendo número entero
+     * @param divisor2      Divisor número entero.
+     * @return              El cociente o producto de la división de los dos números enteros.
      */
 
-    public static double cocienteEnteros(int num3,int num4){
-        return num3/num4;
+    public static double cocienteEnteros(int dividendo2,int divisor2){
+        return dividendo2/divisor2;
     }
 
     /**
      * METODO DE nºINVERSO:
      *
-     * @param num5  Tercer número real.
-     * @return  El producto de calcular el número inverso del número real num5.
+     * @param num5      Tercer número real.
+     * @return          El producto de calcular el número inverso del número real num5.
      */
     public static double numeroInverso(double num5){
         return 1/num5;
