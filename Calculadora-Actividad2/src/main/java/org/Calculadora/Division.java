@@ -1,14 +1,38 @@
 package org.Calculadora;
 
-//Clase 4: Cociente. Realizada por Alberto Balaguer Gómez.
+/**
+ * La clase {Division} proporciona métodos para realizar operaciones de divisón,
+ * tanto con números reales, como con enteros. Además, incluímos un metodo para
+ * la obtención del número inverso.
+ * <p>
+ * Incluye los métodos static para las tres operaciones comentadas. Además, cuenta
+ * con Constructores, Getters and Setters y toString.
+ * </p>
+ * @author Alberto Balaguer Gómez
+ * @author David Gonzalez (Realiza la modificación de cambiar a static los 3 metodos propios)
+ * @version 1.0
+ */
+
 
 public class Division {
+
+    /**
+     * ATRIBUTOS DE CLASE:
+     */
 
     private double real1, real2;
     private int num3, num4;
     private double num5;
 
-    //Constructor con campos seleccionados:
+    /**
+     * @param real1 Primer número real.
+     * @param real2 Segundo número real.
+     * @param num3  Primer número entero.
+     * @param num4  Segundo número entero.
+     * @param num5  Tercer número real.
+     */
+
+    /** CONSTRUCTOR CON TODOS LOS CAMPOS SELECCIONADOS: */
 
     public Division(double real1, double real2, int num3, int num4, double num5) {
         super();
@@ -19,13 +43,13 @@ public class Division {
         this.num5 = num5;
     }
 
-    //Constructor con campos vacíos:
+    /**CONSTRUCTOR VACÍO SIN PARÁMETROS:*/
 
     public Division() {
         super();
     }
 
-    //Getters y Setters:
+    /**GETTERS Y SETTERS:*/
 
     public double getReal1() {
         return real1;
@@ -67,30 +91,51 @@ public class Division {
         this.num5 = num5;
     }
 
-    //toString:
+    /**METODO toString, PARA OBTENER UNA CADENA DE LOS ATRIBUTOS:*/
 
     @Override
     public String toString() {
-        return "Division [real1=" + real1 + ", real2=" + real2 + ", num3=" + num3 + ", num4=" + num4 + ", num5=" + num5
+        return "Division [real1=" + real1 +
+                ", real2=" + real2 +
+                ", num3=" + num3 +
+                ", num4=" + num4 +
+                ", num5=" + num5
                 + "]";
     }
 
 
-    //MÉTODOS PROPIOS:
+    /** METODOS PROPIOS: David Gonzalez cambia a static los tres metodos */
 
-    //METODO DE DIVISIÓN DE REALES: (David Gonzalez cambia a static a los métodos).
+    /**
+     * METODO DE DIVISIÓN ENTRE NÚMEROS REALES:
+     *
+     * @param num1  Primer número real.
+     * @param num2  Segundo número real.
+     * @return  El cociente o producto de la división de los dos números reales.
+     */
 
     public static double cocienteReales(double num1,double num2){
         return num1/num2;
     }
 
+    /**
+     * METODO DE DIVISION ENTRE NÚMEROS ENTEROS:
+     *
+     * @param num3  Primer número entero.
+     * @param num4  Segundo número entero.
+     * @return  El cociente o producto de la divsión de los dos números enteros.
+     */
 
-    //METODO DE DIVISION DE ENTEROS:
     public static double cocienteEnteros(int num3,int num4){
         return num3/num4;
     }
 
-    //METODO DE nºINVERSO:
+    /**
+     * METODO DE nºINVERSO:
+     *
+     * @param num5  Tercer número real.
+     * @return  El producto de calcular el número inverso del número real num5.
+     */
     public static double numeroInverso(double num5){
         return 1/num5;
     }
