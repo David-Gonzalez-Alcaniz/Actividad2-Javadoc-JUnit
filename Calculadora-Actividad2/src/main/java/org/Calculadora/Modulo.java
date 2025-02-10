@@ -26,8 +26,8 @@ public class Modulo {
     /**
      *  Constructor con todos los parámetros
      */
+
     public Modulo(int a, int b) {
-        super();
         this.a = a;
         this.b = b;
     }
@@ -36,7 +36,6 @@ public class Modulo {
      *  Constructor sin parámetros
      */
     public Modulo() {
-        super();
     }
 
     /**
@@ -47,7 +46,7 @@ public class Modulo {
      * Devuelve el valor asignado al atributo a
      * @return El valor de a
      */
-    public int getA() {
+    public int geta() {
         return a;
     }
 
@@ -55,7 +54,7 @@ public class Modulo {
      * Establece el valor de a
      * @param a Nuevo valor para a
      */
-    public void setA(int a) {
+    public void seta(int a) {
         this.a = a;
     }
 
@@ -91,11 +90,13 @@ public class Modulo {
      * @param a Primer número entero
      * @param b Segundo número entero
      * @return El residuo de la división entera de a entre b
-     * @throws ArithmeticException Division entre 0 NO permitido
+     * Division entre 0 NO permitido
      */
+
     public static int calculoModulo(int a, int b) {
         if (b == 0) {
-            throw new ArithmeticException("División entre 0 NO permitido");
+            System.out.println("División entre 0 NO permitido");
+            return 0;
         }
         return a % b;
     }
