@@ -115,6 +115,11 @@ public class Division {
      */
 
     public static double cocienteReales(double dividendo1, double divisor1){
+        if (divisor1 == 0){
+            //throw new ArithmeticException("El divisor NO puede ser 0");
+            System.out.println("El divisor no puede ser 0");
+            return 0;
+        }
         return dividendo1/divisor1;
     }
 
@@ -127,6 +132,11 @@ public class Division {
      */
 
     public static double cocienteEnteros(int dividendo2,int divisor2){
+        if (divisor2 == 0){
+            //throw new ArithmeticException("El divisor NO puede ser 0");
+            System.out.println("El divisor NO puede ser 0");
+            return 0;
+        }
         return dividendo2/divisor2;
     }
 
