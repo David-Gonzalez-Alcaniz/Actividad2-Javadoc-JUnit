@@ -14,7 +14,7 @@ public class Suma {
 
         private double num1, num2, num5;
         private int num3, num4;
-        private double valorAcumulado;
+        private static double valorAcumulado;
     /**
      *  Atributos de la clase.
      *
@@ -149,7 +149,7 @@ public class Suma {
      */
 
         public static double sumaConAcumulado(double valor) {
-            double valorAcumulado = 0;
+            valorAcumulado += valor;
             return valorAcumulado;
         }
 
