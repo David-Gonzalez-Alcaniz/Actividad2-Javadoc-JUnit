@@ -137,7 +137,7 @@ public class Division {
             System.out.println("El divisor NO puede ser 0");
             return 0;
         }
-        return dividendo2/divisor2;
+        return (double) dividendo2/divisor2;
     }
 
     /**
