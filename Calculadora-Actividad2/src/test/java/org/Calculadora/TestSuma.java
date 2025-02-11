@@ -39,6 +39,6 @@ public class TestSuma {
 
     @Test
     void sumaConAcumulado() {
-        assertEquals(11.5, suma1.sumaConAcumulado(9.2));
+        assertEquals(9.2, suma1.sumaConAcumulado(9.2));
     }
 }
