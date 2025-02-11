@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Calculadora-Actividad2.iml" filepath="$PROJECT_DIR$/.idea/modules/Calculadora-Actividad2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Calculadora-Actividad2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Calculadora-Actividad2.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Calculadora-Actividad2.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Calculadora-Actividad2.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ejemplos_Clase.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Ejemplos_Clase.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ejemplos_Clase.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Ejemplos_Clase.test.iml" />
     </modules>
   </component>
 </project>

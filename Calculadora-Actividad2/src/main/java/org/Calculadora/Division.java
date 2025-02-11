@@ -147,6 +147,7 @@ public class Division {
      * @return          El producto de calcular el número inverso del número real num5.
      */
     public static double numeroInverso(double num5){
+
         return 1/num5;
     }
 
