@@ -137,7 +137,7 @@ public class Division {
             System.out.println("El divisor NO puede ser 0");
             return 0;
         }
-        return dividendo2/divisor2;
+        return (double) dividendo2/divisor2;
     }
 
     /**
@@ -147,6 +147,7 @@ public class Division {
      * @return          El producto de calcular el número inverso del número real num5.
      */
     public static double numeroInverso(double num5){
+
         return 1/num5;
     }
 

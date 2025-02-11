@@ -4,29 +4,56 @@ package org.Calculadora;
 
 public class Producto {
 
-    //DATOS
+    /** CREACION DE VARIABLES PRIVADAS. */
+
     private double multiplo1, multiplo2, multiplo5;
     private int multiplo3, multiplo4;
 
-    //MÉTODOS PROPIOS
-    //Producto 2 números reales.
+    /**
+     * METODOS PROPIOS
+     * <p>
+     * 1. PRODUCTO DE DOS NUMEROS REALES.
+     * </p>
+     * @param multiplo1         Multiplo real 1.
+     * @param multiplo2         Multiplo real 2.
+     * @return
+     */
+
     public static double producto2Reales (double multiplo1, double multiplo2){
         return multiplo1 * multiplo2;
     }
 
-    //Producto 2 números enteros.
+    /**
+     * 2. PRODUCTO DE DOS NUMEROS ENTEROS
+     *
+     * @param multiplo3         Multiplo entero 1.
+     * @param multiplo4         Multiplo entero 2.
+     * @return
+     */
+
     public static int productoEnteros (int multiplo3, int multiplo4){
         return multiplo3 * multiplo4;
     }
 
-    //Producto 3 números reales.
+    /**
+     * 3. PRODUCTO DE TRES NUMEROS REALES:
+     *
+     * @param multiplo1         Multiplo real 1.
+     * @param multiplo2         Multiplo real 2.
+     * @param multiplo5         Multiplo real 3.
+     * @return
+     */
+
     public static double producto3Reales (double multiplo1, double multiplo2, double multiplo5) {
         return multiplo1 * multiplo2 * multiplo5;
     }
 
-    //Generar constructor.
+    /** GENERAR CONSTRUCTOR SIN PARAMETROS. */
+
     public Producto() {
     }
+
+    /** GENERAR CONSTRUCTOR CON TODOS LOS DATOS. */
 
     public Producto(int multiplo4, double multiplo1, double multiplo2, double multiplo5, int multiplo3) {
         this.multiplo4 = multiplo4;
@@ -36,7 +63,10 @@ public class Producto {
         this.multiplo3 = multiplo3;
     }
 
-    //Generar Getter and Setter.
+    /** GENERAR GETTER AND SETTER.
+     * @return
+     */
+
     public double getMultiplo1() {
         return multiplo1;
     }
@@ -78,7 +108,10 @@ public class Producto {
     }
 
 
-    //Generar toString.
+    /** GENERAR METODO TOSTRING.
+     * @return
+     */
+
     @Override
     public String toString() {
         return "Producto{" +

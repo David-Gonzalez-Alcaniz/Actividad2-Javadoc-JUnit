@@ -15,7 +15,7 @@ public class TestModulo {
         System.out.println(Modulo.calculoModulo(359,27));
 
         //Módulo de la división entre 2 enteros, siendo int b = 0:
-        //System.out.println(Modulo.calculoModulo(9,0));
+        System.out.println(Modulo.calculoModulo(9,0));
 
         //Valor absoluto de número real:
         System.out.println(Modulo.calculoValorAbsoluto(2.5));
@@ -30,14 +30,12 @@ public class TestModulo {
 
     @Test
     void calculoModulo() {
-        modulo1.calculoModulo(359,27);
         assertEquals(8, modulo1.calculoModulo(359,27));
 
     }
 
     @Test
     void calculoValorAbsoluto() {
-        modulo1.calculoValorAbsoluto(2.5);
         assertEquals(8, modulo1.calculoValorAbsoluto(2.5));
     }
 }
