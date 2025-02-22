@@ -12,11 +12,11 @@ TestProducto {
 
         System.out.println(Producto.producto2Reales(2.6, 5));
 
-
         System.out.println(Producto.productoEnteros(2, 6));
 
-
         System.out.println(Producto.producto3Reales(3,1,2));
+
+        System.out.println(Producto.calcularPotencia(5, 3));
 
 
     }
@@ -40,5 +40,9 @@ TestProducto {
     @Test
     void producto3Reales() {
         assertEquals(6, producto1.producto3Reales(3,1,2));
+    }
+
+    @Test
+    void calcularPotencia() { assertEquals(125, producto1.calcularPotencia(5,3));
     }
 }

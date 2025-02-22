@@ -1,14 +1,15 @@
 package org.Calculadora;
-    /**
-    * La clase {Suma} proporciona métodos para realizar operaciones de suma
-    * con números reales y enteros. También incluye un sistema de acumulación de valores.
-    * <p>
-    * Incluye métodos static para realizar sumas sin necesidad de instanciar la clase.
-    * Además, cuenta con constructores, getters, setters y un toString.
-    * </p>
-    *  @author [Francisco José Soria Navarrete]
-    * @version 1.0
-    */
+/**
+ * La clase {Suma} proporciona métodos para realizar operaciones de suma
+ * con números reales y enteros. También incluye un sistema de acumulación de valores.
+ * <p>
+ * Incluye métodos static para realizar sumas sin necesidad de instanciar la clase.
+ * Además, cuenta con constructores, getters, setters y un toString.
+ * </p>
+ * @author [Francisco José Soria Navarrete]
+ * @version 1.0
+ * @see <a href= "https://github.com/David-Gonzalez-Alcaniz/Actividad2-Javadoc-JUnit.git" />Repositorio GitHub</a>
+ */
 
 public class Suma {
 

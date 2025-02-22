@@ -12,7 +12,10 @@ public static void main(String[] args) {
     System.out.println(Division.cocienteReales(3.5,2.25));
 
     System.out.println(Division.numeroInverso(5.5));
-            }
+
+    System.out.println(Division.raizCuadrada(16));
+
+    }
 
     private Division division1;
 
@@ -35,5 +38,9 @@ public static void main(String[] args) {
     @Test
     void numeroInverso() {
         assertEquals(0.18181818181818182,division1.numeroInverso(5.5));
+    }
+
+    @Test
+    void raizCuadrada() { assertEquals(4, division1.raizCuadrada(16));
     }
 }

@@ -1,17 +1,17 @@
 package org.Calculadora;
+/**
+ * La clase {Resta} proporciona los métodos indicados en la actividad para operar con diferentes variables
+ * únicamente con el operador - (resta).
+ * Contamos con numeros reales y enteros, además de un metodo específico para acumular el valor obtenido
+ * y poder seguir restando numeros.
+ * @author David Gómez Moreno
+ * @author David Gonzalez Alcañiz cambio de clases a static.
+ * @see <a href= "https://github.com/David-Gonzalez-Alcaniz/Actividad2-Javadoc-JUnit.git" />Repositorio GitHub</a>
+ */
 
 public class Resta {
 
-    //Clase creada por David Gómez Moreno
-    /**
-     * La clase {Resta} proporciona los métodos indicados en la actividad para operar con diferentes variables
-     * únicamente con el operador - (resta).
-     * Contamos con numeros reales y enteros, además de un metodo específico para acumular el valor obtenido
-     * y poder seguir restando numeros.
-     * @author David Gómez Moreno
-     * @author David Gonzalez Alcañiz cambio de clases a static
-     *
-     */
+    /** VARIABLES PRIVADAS */
 
     private double numReal1;
     private double numReal2;

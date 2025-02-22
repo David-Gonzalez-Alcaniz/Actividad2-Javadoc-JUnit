@@ -1,7 +1,4 @@
 package org.Calculadora;
-
-import javax.management.ConstructorParameters;
-
 /**
  * La clase {Division} proporciona métodos para realizar operaciones de divisón,
  * tanto con números reales, como con enteros. Además, incluímos un metodo para
@@ -13,6 +10,7 @@ import javax.management.ConstructorParameters;
  * @author Alberto Balaguer Gómez
  * @author David Gonzalez (Realiza la modificación de cambiar a static los 3 metodos propios)
  * @version 1.0
+ * @see <a href= "https://github.com/David-Gonzalez-Alcaniz/Actividad2-Javadoc-JUnit.git" />Repositorio GitHub</a>
  */
 
 
@@ -25,6 +23,7 @@ public class Division {
     private double dividendo1, divisor1;
     private int dividendo2, divisor2;
     private double num5;
+
     /**
      * @param dividendo1    Dividendo número real.
      * @param divisor1      Divisor número real.
@@ -151,5 +150,21 @@ public class Division {
         return 1/num5;
     }
 
-
+    /**
+     * METODO RAIZ CUADRADA:
+     *
+     * @param dividendo2        Radicando.
+     * @return                  Resultado de la operación.
+     */
+    public static int raizCuadrada(int dividendo2){
+        int raiz = 0;
+        for (int i = 0; i <= dividendo2; i++) {
+            if (i * i == dividendo2) {
+                raiz = i;
+                break;
+            }
+        }
+        return raiz;
+    }
 }
+

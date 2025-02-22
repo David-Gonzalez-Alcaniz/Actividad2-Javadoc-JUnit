@@ -1,22 +1,41 @@
 package org.Calculadora;
-
-//CLASE CREADA POR DAVID GONZÁLEZ ALCAÑIZ.
+/**
+ * La clase {Producto} proporciona métodos para realizar operaciones de multiplicación,
+ * tanto con números reales, como enteros.
+ * <p>
+ * Incluye los métodos static para las tres operaciones comentadas. Además, cuenta
+ * con Constructores, Getters and Setters y toString.
+ * </p>
+ * @author David González Alcañiz
+ * @version 1.0
+ * @see <a href= "https://github.com/David-Gonzalez-Alcaniz/Actividad2-Javadoc-JUnit.git" />Repositorio GitHub</a>
+ */
 
 public class Producto {
 
-    /** CREACION DE VARIABLES PRIVADAS. */
+    /** CREACIÓN DE VARIABLES PRIVADAS. */
 
     private double multiplo1, multiplo2, multiplo5;
     private int multiplo3, multiplo4;
 
     /**
-     * METODOS PROPIOS
+     * Atributos de clase:
+     *
+     * @param multiplo1         Multiplo real.
+     * @param multiplo2         Multiplo real.
+     * @param multiplo5         Multiplo real.
+     * @param multiplo3         Multiplo entero.
+     * @param multiplo4         Multiplo entero.
+     */
+
+    /**
+     * MÉTODOS PROPIOS
      * <p>
-     * 1. PRODUCTO DE DOS NUMEROS REALES.
+     * 1. PRODUCTO DE DOS NÚMEROS REALES.
      * </p>
      * @param multiplo1         Multiplo real 1.
      * @param multiplo2         Multiplo real 2.
-     * @return
+     * @return                  Producto de la multiplicación de dos números reales.
      */
 
     public static double producto2Reales (double multiplo1, double multiplo2){
@@ -24,11 +43,11 @@ public class Producto {
     }
 
     /**
-     * 2. PRODUCTO DE DOS NUMEROS ENTEROS
+     * 2. PRODUCTO DE DOS NÚMEROS ENTEROS
      *
      * @param multiplo3         Multiplo entero 1.
      * @param multiplo4         Multiplo entero 2.
-     * @return
+     * @return                  Producto de la multiplicación de dos números enteros.
      */
 
     public static int productoEnteros (int multiplo3, int multiplo4){
@@ -36,19 +55,36 @@ public class Producto {
     }
 
     /**
-     * 3. PRODUCTO DE TRES NUMEROS REALES:
+     * 3. PRODUCTO DE TRES NÚMEROS REALES:
      *
      * @param multiplo1         Multiplo real 1.
      * @param multiplo2         Multiplo real 2.
      * @param multiplo5         Multiplo real 3.
-     * @return
+     * @return                  Producto de la multiplicación de tres números reales.
      */
 
     public static double producto3Reales (double multiplo1, double multiplo2, double multiplo5) {
         return multiplo1 * multiplo2 * multiplo5;
     }
 
-    /** GENERAR CONSTRUCTOR SIN PARAMETROS. */
+
+    /**
+     * 4. CALULO DE UNA POTENCIA:
+     *
+     * @param multiplo1         Base.
+     * @param multiplo2         Exponente.
+     * @return                  Resultado de la potencia.
+     */
+
+    public static int calcularPotencia(int multiplo1, int multiplo2){
+        int resultado = 1;
+        for (int i = 0; i < multiplo2; i++) {
+            resultado *= multiplo1;
+        }
+        return resultado;
+    }
+
+    /** GENERAR CONSTRUCTOR SIN PARÁMETROS. */
 
     public Producto() {
     }
@@ -63,9 +99,7 @@ public class Producto {
         this.multiplo3 = multiplo3;
     }
 
-    /** GENERAR GETTER AND SETTER.
-     * @return
-     */
+    /** GENERAR GETTER AND SETTER. */
 
     public double getMultiplo1() {
         return multiplo1;
@@ -108,9 +142,7 @@ public class Producto {
     }
 
 
-    /** GENERAR METODO TOSTRING.
-     * @return
-     */
+    /** GENERAR METODO TOSTRING. */
 
     @Override
     public String toString() {
