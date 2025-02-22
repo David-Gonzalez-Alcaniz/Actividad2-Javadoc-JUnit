@@ -14,6 +14,8 @@ public class TestResta {
         System.out.println("Resta 2 numeros enters: " + Resta.restaEnteros(10, 5));
         //Resta de 3 numeros reales
         System.out.println("Resta de 3 numeros reales: " + Resta.restaTresReales(20.5, 5.5, 4.5));
+        //Resta Valor Acumulado
+        System.out.println("Resta de Valor Acumulado: " + Resta.restaValorAcumulado(10.5));
     }
 
 
@@ -27,19 +29,21 @@ public class TestResta {
 
     @Test
     void restaReales() {
-        resta1.restaReales(10.5, 5.5);
         assertEquals(5.0, Resta.restaEnteros(10, 5));
     }
 
     @Test
     void restaEnteros() {
-        resta1.restaEnteros(10, 5);
         assertEquals(5, Resta.restaEnteros(10, 5));
     }
 
     @Test
     void restaTresReales() {
-        resta1.restaTresReales(20.5, 5.5, 4.5);
         assertEquals(10.5, Resta.restaTresReales(20.5, 5.5, 4.5));
+    }
+
+    @Test
+    void restaValorAcumulado() {
+        assertEquals(-10.5, Resta.restaValorAcumulado(10.5));
     }
 }
